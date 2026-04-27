@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import { useAuth } from "@/lib/auth";
-import { Leaf } from "lucide-react";
 
 export function Hero() {
   const { user } = useAuth();
@@ -77,8 +76,8 @@ export function Hero() {
             className="w-full max-w-md bg-card rounded-[2rem] p-8 shadow-lg border border-card-border flex flex-col items-center justify-center relative overflow-hidden"
           >
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-background rounded-full blur-3xl opacity-50"></div>
-            <div className="relative z-10 w-full aspect-square rounded-2xl overflow-hidden mb-8 border border-border/50 shadow-sm bg-background flex items-center justify-center">
-              <Leaf className="w-32 h-32 text-primary" />
+            <div className="relative z-10 w-full aspect-square rounded-2xl overflow-hidden mb-8 border border-border/50 shadow-sm bg-background flex items-center justify-center p-8">
+              <img src="/images/herbiqa-logo.jpeg" alt="Herbiqa Logo" className="w-full h-full object-contain" />
             </div>
             <p className="relative z-10 text-center text-sm text-foreground/80 font-medium leading-relaxed max-w-xs">
               A clean, plant-forward identity inspired by traditional herbal

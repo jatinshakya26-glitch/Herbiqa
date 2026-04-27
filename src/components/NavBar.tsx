@@ -1,5 +1,5 @@
 import { Link, useLocation } from "wouter";
-import { ShoppingBag, Leaf } from "lucide-react";
+import { ShoppingBag } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useAuth } from "@/lib/auth";
 import { useCart } from "@/lib/cart";
@@ -14,9 +14,9 @@ export function NavBar() {
       <div className="flex items-center gap-4">
         <Link
           href="/"
-          className="flex items-center justify-center w-10 h-10 rounded-full overflow-hidden shrink-0 shadow-sm border border-border/50 bg-primary"
+          className="flex items-center justify-center w-12 h-12 rounded-full overflow-hidden shrink-0 shadow-sm border border-border/50"
         >
-          <Leaf className="w-5 h-5 text-primary-foreground" />
+          <img src="/images/herbiqa-logo.jpeg" alt="Herbiqa Logo" className="w-full h-full object-cover" />
         </Link>
         <span className="text-foreground/80 text-sm font-medium hidden sm:block">
           Ayurvedic wellness store

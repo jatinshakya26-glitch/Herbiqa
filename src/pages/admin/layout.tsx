@@ -1,7 +1,6 @@
 import { useEffect, type ReactNode } from "react";
 import { Link, useLocation } from "wouter";
 import { useAuth } from "@/lib/auth";
-import { Leaf } from "lucide-react";
 
 const NAV = [
   { path: "/admin", label: "Overview" },
@@ -30,8 +29,8 @@ export function AdminLayout({ children }: { children: ReactNode }) {
     <div className="min-h-screen bg-background flex">
       <aside className="w-64 bg-primary text-primary-foreground flex flex-col py-8 px-6 sticky top-0 h-screen">
         <Link href="/" className="flex items-center gap-3 mb-10">
-          <span className="w-9 h-9 rounded-full overflow-hidden border border-primary-foreground/20 inline-flex items-center justify-center bg-background">
-            <Leaf className="w-5 h-5 text-primary" />
+          <span className="w-10 h-10 rounded-full overflow-hidden border border-primary-foreground/20 inline-flex items-center justify-center">
+            <img src="/images/herbiqa-logo.jpeg" alt="Herbiqa Logo" className="w-full h-full object-cover" />
           </span>
           <span className="font-serif text-lg">Herbiqa</span>
         </Link>

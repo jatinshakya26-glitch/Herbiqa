@@ -3,7 +3,6 @@ import { Link, useLocation } from "wouter";
 import { Button } from "@/components/ui/button";
 import { useAuth } from "@/lib/auth";
 import { ApiError } from "@/lib/api";
-import { Leaf } from "lucide-react";
 
 export default function SignIn() {
   const { signin } = useAuth();
@@ -31,8 +30,8 @@ export default function SignIn() {
     <div className="min-h-screen bg-background flex flex-col">
       <header className="px-8 py-6">
         <Link href="/" className="inline-flex items-center gap-3">
-          <span className="w-10 h-10 rounded-full overflow-hidden border border-border/50 inline-flex items-center justify-center bg-primary">
-            <Leaf className="w-5 h-5 text-primary-foreground" />
+          <span className="w-12 h-12 rounded-full overflow-hidden border border-border/50 inline-flex items-center justify-center">
+            <img src="/images/herbiqa-logo.jpeg" alt="Herbiqa Logo" className="w-full h-full object-cover" />
           </span>
           <span className="font-serif text-xl text-primary">Herbiqa</span>
         </Link>

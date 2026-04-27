@@ -1,0 +1,74 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "7ZDNd9JOS_d4d_Uu9-tTn"
+uri = "file://artifacts/herbiqa/public/hero.png"
+type = "image"
+title = "Sunlit botanical apothecary interior"
+
+[[generated]]
+id = "V-fTZRXJ13_KC6PhG2uT6"
+uri = "file://artifacts/herbiqa/public/product-serum.png"
+type = "image"
+title = "Amber glass botanical serum"
+
+[[generated]]
+id = "xT2KqmydYLZTTD6l-cAW_"
+uri = "file://artifacts/herbiqa/public/product-tea.png"
+type = "image"
+title = "Herbal tea blend in jar"
+
+[[generated]]
+id = "v57DX-TeEzLCSbAIFilxl"
+uri = "file://artifacts/herbiqa/public/product-balm.png"
+type = "image"
+title = "Herbal balm in green jar"
+
+[[generated]]
+id = "8I7D6RxkihD1wJsUY5XdP"
+uri = "file://artifacts/herbiqa/public/process.png"
+type = "image"
+title = "Hands holding fresh herbs"
+
+[[generated]]
+id = "T0KkbzLA-trmSNsGqtA3N"
+uri = "file://artifacts/herbiqa/public/ingredients.png"
+type = "image"
+title = "Dried botanical flat lay"
+
+[[generated]]
+id = "VaHZcZdaBsW6u65eXTy1s"
+uri = "file://artifacts/herbiqa/public/journal-1.png"
+type = "image"
+title = "Apothecary workshop table"
+
+[[generated]]
+id = "H7NBoAydkTcrV8gE-x_U0"
+uri = "file://artifacts/herbiqa/public/journal-2.png"
+type = "image"
+title = "Pouring herbal tea"
+
+[[generated]]
+id = "DdSgBSiqjJEsQsosrQcft"
+uri = "file://artifacts/herbiqa/public/product-serum-new.png"
+type = "image"
+title = "Apothecary product serum"
+
+[[generated]]
+id = "hOD-GoyvhfkWUlaTS8HPp"
+uri = "file://artifacts/herbiqa/public/product-tea-new.png"
+type = "image"
+title = "Apothecary herbal tea"
+
+[[generated]]
+id = "3XSGQRv9C91WA-h67TWu0"
+uri = "file://artifacts/herbiqa/public/product-balm-new.png"
+type = "image"
+title = "Apothecary healing balm"
+
+[[generated]]
+id = "zYaHEfM_iz8Gebu6MDGAP"
+uri = "file://artifacts/herbiqa/public/ingredient-story.png"
+type = "image"
+title = "Herbal ingredient story"

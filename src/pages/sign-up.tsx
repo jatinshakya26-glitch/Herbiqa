@@ -3,7 +3,7 @@ import { Link, useLocation } from "wouter";
 import { Button } from "@/components/ui/button";
 import { useAuth } from "@/lib/auth";
 import { ApiError } from "@/lib/api";
-import logo from "@assets/WhatsApp_Image_2026-04-23_at_7.59.15_AM_1777317297562.jpeg";
+import { Leaf } from "lucide-react";
 
 export default function SignUp() {
   const { signup } = useAuth();
@@ -32,8 +32,8 @@ export default function SignUp() {
     <div className="min-h-screen bg-background flex flex-col">
       <header className="px-8 py-6">
         <Link href="/" className="inline-flex items-center gap-3">
-          <span className="w-10 h-10 rounded-full overflow-hidden border border-border/50 inline-flex items-center justify-center">
-            <img src={logo} alt="Herbiqa" className="w-full h-full object-cover" />
+          <span className="w-10 h-10 rounded-full overflow-hidden border border-border/50 inline-flex items-center justify-center bg-primary">
+            <Leaf className="w-5 h-5 text-primary-foreground" />
           </span>
           <span className="font-serif text-xl text-primary">Herbiqa</span>
         </Link>

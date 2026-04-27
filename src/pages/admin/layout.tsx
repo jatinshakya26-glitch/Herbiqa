@@ -1,7 +1,7 @@
 import { useEffect, type ReactNode } from "react";
 import { Link, useLocation } from "wouter";
 import { useAuth } from "@/lib/auth";
-import logo from "@assets/WhatsApp_Image_2026-04-23_at_7.59.15_AM_1777317297562.jpeg";
+import { Leaf } from "lucide-react";
 
 const NAV = [
   { path: "/admin", label: "Overview" },
@@ -31,7 +31,7 @@ export function AdminLayout({ children }: { children: ReactNode }) {
       <aside className="w-64 bg-primary text-primary-foreground flex flex-col py-8 px-6 sticky top-0 h-screen">
         <Link href="/" className="flex items-center gap-3 mb-10">
           <span className="w-9 h-9 rounded-full overflow-hidden border border-primary-foreground/20 inline-flex items-center justify-center bg-background">
-            <img src={logo} alt="Herbiqa" className="w-full h-full object-cover" />
+            <Leaf className="w-5 h-5 text-primary" />
           </span>
           <span className="font-serif text-lg">Herbiqa</span>
         </Link>

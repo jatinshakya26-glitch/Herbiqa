@@ -1,9 +1,8 @@
 import { Link, useLocation } from "wouter";
-import { ShoppingBag } from "lucide-react";
+import { ShoppingBag, Leaf } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useAuth } from "@/lib/auth";
 import { useCart } from "@/lib/cart";
-import logo from "@assets/WhatsApp_Image_2026-04-23_at_7.59.15_AM_1777317297562.jpeg";
 
 export function NavBar() {
   const { user, signout } = useAuth();
@@ -15,9 +14,9 @@ export function NavBar() {
       <div className="flex items-center gap-4">
         <Link
           href="/"
-          className="flex items-center justify-center w-10 h-10 rounded-full overflow-hidden shrink-0 shadow-sm border border-border/50"
+          className="flex items-center justify-center w-10 h-10 rounded-full overflow-hidden shrink-0 shadow-sm border border-border/50 bg-primary"
         >
-          <img src={logo} alt="Herbiqa Logo" className="w-full h-full object-cover" />
+          <Leaf className="w-5 h-5 text-primary-foreground" />
         </Link>
         <span className="text-foreground/80 text-sm font-medium hidden sm:block">
           Ayurvedic wellness store
